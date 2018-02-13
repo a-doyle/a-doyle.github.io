@@ -116,3 +116,7 @@ footer {
 .work {
     background: #8D99AE;
 }
+
+h3 ~ p {
+   margin: 0; 
+}
