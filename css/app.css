@@ -1,13 +1,15 @@
-/* Global styles */
+/* Global styles 
+---------------------*/
 
-/* ERROR TESTING */
+/* ERROR TESTING 
+---------------------*/
 /* * {
     border: 1px solid black;
 } */
 
 body {
-    background: #87CEFA;
     font-family: 'Averia Libre', cursive;
+    margin: 0;
 }
 
 .container {
@@ -37,27 +39,41 @@ a:hover {
     text-decoration: none;
 }
 
-/* Header and Footer */
+/* Header and Footer 
+---------------------*/
 header, footer {
     background: #2B2D42;
     color: #8D99AE;
 }
 
+/* header */
 header h1, header h2 {
     color: #EDF2F4;
 }
 
-/* Education */
+/* footer */
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+}
+
+/* Education 
+---------------------*/
 .education {
     background: #EDF2F4;
 }
 
-/* Skills */
+/* Skills 
+---------------------*/
 .skills {
     background: #B0E0E6;
 }
 
-/* Work Experience */
+/* Work Experience 
+---------------------*/
 .work {
     background: #8D99AE;
 }
