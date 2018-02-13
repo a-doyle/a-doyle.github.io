@@ -7,15 +7,17 @@
     border: 1px solid black;
 } */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Averia Libre', cursive;
     margin: 0;
-}
-
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 25px;
 }
 
 h1, h2 {
@@ -39,6 +41,24 @@ a:hover {
     text-decoration: none;
 }
 
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 25px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+
 /* Header and Footer 
 ---------------------*/
 header, footer {
@@ -47,8 +67,17 @@ header, footer {
 }
 
 /* header */
+.profile-img {
+    border-radius: 8px;
+}
+
+header p {
+    margin: 0;
+}
+
 header h1, header h2 {
     color: #EDF2F4;
+    margin: 0;
 }
 
 /* footer */
