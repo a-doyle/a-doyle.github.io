@@ -69,6 +69,10 @@ a:hover {
     padding-left: 20px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* Header and Footer 
 ---------------------*/
 header, footer {
@@ -105,10 +109,18 @@ footer {
     background: #EDF2F4;
 }
 
+.edu-description p:first-of-type {
+    margin-top: 0;
+}
+
 /* Skills 
 ---------------------*/
 .skills {
     background: #B0E0E6;
+}
+
+.skill-description p:first-of-type {
+    margin-top: 0;
 }
 
 /* Work Experience 
@@ -119,4 +131,12 @@ footer {
 
 h3 ~ p {
    margin: 0; 
+}
+
+.job-description {
+    margin-bottom: 10px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
 }
