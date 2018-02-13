@@ -1,6 +1,19 @@
 /* Global styles */
 body {
     background: #87CEFA;
+    font-family: 'Averia Libre', cursive;
+}
+
+h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 a {
