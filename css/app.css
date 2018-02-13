@@ -3,10 +3,35 @@ body {
     background: #87CEFA;
 }
 
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* Header and Footer */
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+}
 
 /* Education */
+.education {
+    background: #EDF2F4;
+}
 
 /* Skills */
+.skills {
+    background: #B0E0E6;
+}
 
 /* Work Experience */
+.work {
+    background: #8D99AE;
+}
