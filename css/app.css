@@ -52,7 +52,7 @@ a:hover {
 .container {
     max-width: 950px;
     margin: 0 auto;
-    padding: 25px;
+    padding:  40px 25px;
     overflow: auto;
 }
 
@@ -83,6 +83,11 @@ header, footer {
 /* header */
 .profile-img {
     border-radius: 8px;
+    margin-top: 30px;
+}
+
+header {
+    padding: 30px;
 }
 
 header p {
@@ -102,6 +107,25 @@ footer {
 .contact-info a {
     padding: 10px;
 }
+
+/* Navigation
+---------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 
 /* Education 
 ---------------------*/
