@@ -17,7 +17,7 @@ html {
 
 body {
     font-family: 'Averia Libre', cursive;
-    margin: 0;
+    margin: 0px;
 }
 
 h1, h2 {
@@ -53,26 +53,14 @@ a:hover {
     max-width: 950px;
     margin: 0 auto;
     padding:  40px 25px;
-    overflow: auto;
-}
-
-.col-narrow {
-    width: 30%;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
+    overflow: hidden;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
+/* Download button */
 .btn {
    text-decoration: none;
    background: #EF233C; 
@@ -130,6 +118,7 @@ nav {
     background: white;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -181,4 +170,31 @@ h3 ~ p {
 
 .job-description p:first-of-type {
     margin-top: 0;
+}
+
+/* Media Queries
+---------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 200px;
+    }
 }
